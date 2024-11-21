@@ -1,0 +1,158 @@
+/* Content Section */
+.content {
+    margin-top: 54px;
+}
+
+/* Header Section */
+.header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Title (Quiz Title) */
+.left-title {
+    width: 80px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Right Title for Total Questions */
+.right-title {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px; /* Added space between Total Questions and Timer */
+}
+
+/* Timer styling */
+#Timer {
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    gap: 10px; /* Space between icon and timer text */
+}
+
+/* Optional SVG Icon within the Timer */
+#Timer svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--content-accent-normal);
+}
+
+/* Optional Hover effect for SVG Icon */
+#Timer svg:hover {
+    fill: #007bff;
+    cursor: pointer;
+}
+
+/* Quiz Body */
+.quiz-body {
+    margin-top: 15px;
+    padding-bottom: 50px;
+    backdrop-filter: blur(3px);
+}
+
+/* Option Block Container */
+.option-block-container {
+    margin-top: 20px;
+    max-width: 420px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Option Block for Quiz Options */
+.option-block {
+    padding: 20px;
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 300px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+/* Result Question Text Styling */
+.result-question {
+    font-weight: bold;
+}
+
+/* Wrong Answer Color */
+.c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+}
+
+/* Correct Answer Color */
+.c-correct {
+    margin-left: 20px;
+    color: green;
+}
+
+/* Last Row Border for Separation */
+.last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+/* Res Header Border for Separation */
+.res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+/* Container Styling */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Quigestion Block Styling */
+#question-block {
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 15px 20px;
+    width: fit-content;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Form Group Styling */
+.form-group {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.submitsection{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Optional: background color */
+    padding: 10px; /* Optional: padding */
+    text-align: center; /* Optional: center the text */
+    border-top: 1px solid #e7e7e7; /* Optional: top border for a neat look */
+}
+
